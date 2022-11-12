@@ -12,9 +12,9 @@ int number2 = int.Parse(userInput2);
 
 if (number1>number2)
 {
-    Console.WriteLine($"{number1} -> max, {number2} -> min");
+    Console.WriteLine($"{number1}, {number2} -> max = {number1} , min = {number2}");
 }
 else
 {
-    Console.WriteLine($"{number2} -> max, {number1} -> min");
+    Console.WriteLine($"{number1}, {number2} -> max = {number2}, min = {number1}");
 }
