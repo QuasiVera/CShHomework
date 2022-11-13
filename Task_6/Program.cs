@@ -2,8 +2,8 @@
 // является ли число чётным (делится ли оно на два без остатка).
 
 Console.WriteLine("Введите число и нажмите enter");
-string InputA = Console.ReadLine() ?? "";
-int a = Convert.ToInt32(InputA);
+string inputA = Console.ReadLine() ?? "";
+double a = Convert.ToDouble(inputA);
 // double res = a%2;
 if (a%2==0)
 {
